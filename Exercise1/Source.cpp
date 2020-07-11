@@ -14,7 +14,7 @@ int main(void) {
 	{
 		tg9 = tg1 + tg2 + 36000; //10:20:12
 	}
-	if ( (12345 <= tg5) == false)
+	if ( (12345 <= tg5)) // conditions fail cuz 12345 > tg5
 	{
 		tg10 = tg5 + 12345; //05:51:42
 	}
