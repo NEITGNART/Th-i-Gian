@@ -11,7 +11,7 @@ void ThoiGian::setSMH(int s) {
 	hour = ((s/3600)%24)% 24;
 	minute = (s % 3600) / 60;
 	second = (s % 3600) % 60;
-}
+} 
 ThoiGian::ThoiGian() {
 	second = 0; minute = 0; hour = 0;
 }
